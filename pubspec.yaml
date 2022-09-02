@@ -1,0 +1,57 @@
+name: my_dear_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+2
+  animated_splash_screen: ^1.3.0
+  animated_text_kit: ^4.2.2
+  page_transition: ^2.0.9
+  dropdown_search: ^5.0.2
+  lottie: ^1.4.1
+  flutter_swiper : ^1.1.6
+  modal_bottom_sheet: ^2.1.0
+  calendar_date_picker2: ^0.2.2
+  pin_code_fields: ^7.4.0
+  date_format: ^2.0.6
+  material_design_icons_flutter: ^5.0.6996
+  iconsax: ^0.0.8
+  image_picker: ^0.8.5+3
+  charts_flutter: ^0.12.0
+  syncfusion_flutter_charts: ^20.2.43
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - images/
+    - json/
+  fonts:
+    - family: Lucida Bright
+      fonts:
+        - asset: fonts/Lucida_Bright.ttf
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.otf  
+        - asset: fonts/Inter-Bold.otf     
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.otf 
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+    - family: SF
+      fonts:
+        - asset: fonts/FontsFree-Net-SFProText-Regular.ttf
